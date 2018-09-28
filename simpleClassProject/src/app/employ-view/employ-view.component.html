@@ -1,0 +1,25 @@
+<div class="container">
+
+<form name="employForm">
+  <div class="form-group">
+    <label for="employID">Employ ID</label>
+    <input type="number" class="form-control" id="employId" name="employId" [(ngModel)]="employDetails.employ_id" readonly>
+  </div>
+
+  <div class="form-group">
+    <label for="employName">Employ Name</label>
+    <input type="text" class="form-control" id="employName" name="employName" [(ngModel)]="employDetails.employ_name" readonly>
+  </div>
+
+  <div class="form-group">
+    <label for="employAdress">Employ Adress</label>
+    <input type="text" class="form-control" id="employAdress" name="employAdress" [(ngModel)]="employDetails.employ_adress" readonly>
+  </div>
+
+  <div class="form-group">
+    <label for="employtype">Employ Type</label>
+    <input type="text" class="form-control" id="employtype" name="employtype" [(ngModel)]="employDetails.employ_type" readonly>
+  </div>
+  
+</form>
+</div>

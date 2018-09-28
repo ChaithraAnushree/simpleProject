@@ -1,0 +1,26 @@
+<div class="container">
+
+<form name="employForm">
+  <div class="form-group">
+    <label for="employID">Employ ID</label>
+    <input type="number" class="form-control" id="employId" name="employId" [(ngModel)]="formData.employId" placeholder="Employ ID">
+  </div>
+
+  <div class="form-group">
+    <label for="employName">Employ Name</label>
+    <input type="text" class="form-control" id="employName" name="employName" [(ngModel)]="formData.employName" placeholder="Employ Name">
+  </div>
+
+  <div class="form-group">
+    <label for="employAdress">Employ Adress</label>
+    <input type="text" class="form-control" id="employAdress" name="employAdress" [(ngModel)]="formData.employAdress" placeholder="Employ Adress">
+  </div>
+
+  <div class="form-group">
+    <label for="employtype">Employ Type</label>
+    <input type="text" class="form-control" id="employtype" name="employtype" [(ngModel)]="formData.employType" placeholder="Employ Type">
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="saveEmploy()">SUBMIT</button>
+  
+</form>
+</div>
